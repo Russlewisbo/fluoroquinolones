@@ -80,8 +80,8 @@ The quinolones have evolved dramatically. First-generation agents like nalidixic
 
 <br>
 
-::::: {.columns style="justify-content: center;"}
-::: {.column width="35%"}
+:::::: columns
+::: {.column width="50%"}
 **Older agents:**
 
 - Norfloxacin
@@ -89,7 +89,11 @@ The quinolones have evolved dramatically. First-generation agents like nalidixic
 - Ofloxacin
 :::
 
-::: {.column width="35%"}
+::: {.column width="50%"}
+**Newer agents:**
+:::
+
+::: {.column width="50%"}
 **Newer agents:**
 
 - Levofloxacin
@@ -97,7 +101,7 @@ The quinolones have evolved dramatically. First-generation agents like nalidixic
 - Gemifloxacin
 - Delafloxacin
 :::
-:::::
+::::::
 
 ::: notes
 These are the quinolones currently available in clinical practice. Ciprofloxacin and levofloxacin are the most commonly used. Delafloxacin is the newest addition, approved for skin infections.
@@ -111,54 +115,33 @@ These are the quinolones currently available in clinical practice. Ciprofloxacin
 
 Quinolones target two essential bacterial enzymes:
 
-::: {}
 - **DNA Gyrase** (GyrA, GyrB subunits)
 - **Topoisomerase IV** (ParC, ParE subunits)
-:::
-
-Both are Type II topoisomerases required for DNA replication.
+- Both are Type II topoisomerases required for DNA replication.
 
 ::: aside
 The key to understanding quinolone action is recognizing these two targets. Both are essential for bacterial survival, and quinolones exploit this by trapping them in complexes with DNA.
 :::
 
-## DNA Gyrase Function
+## DNA gyrase function
+
+![](fluoroquinolone-images/moa.png){fig-align="center" width="800"}
 
 <br>
 
-DNA gyrase uniquely:
-
-::: incremental
-- Introduces negative superhelical twists into DNA
-- Removes positive supertwists ahead of replication fork
-- Regulates DNA superhelicity (with Topoisomerase I)
-:::
-
-> Encoded by *gyrA* and *gyrB* genes
-
-::: notes
+::: aside
 DNA gyrase is the only enzyme that can introduce negative supercoils. This is essential for compacting the bacterial chromosome and for DNA replication to proceed.
 :::
 
-## Topoisomerase IV Function
+## Topoisomerase IV function
 
-<br>
+![](fluoroquinolone-images/Topof.png){fig-align="center"}
 
-Topoisomerase IV:
-
-::: incremental
-- Decatenates (resolves) interlinked daughter DNA molecules
-- Allows DNA segregation into daughter cells
-- Cannot introduce negative supercoils
-:::
-
-> Encoded by *parC* and *parE* genes
-
-::: notes
+::: aside
 When circular DNA replicates, the two daughter molecules are interlocked like chain links. Topoisomerase IV separates them so they can partition into daughter cells.
 :::
 
-## Species-Dependent Primary Targets
+## Species-dependent primary targets
 
 <br>
 
@@ -167,7 +150,9 @@ When circular DNA replicates, the two daughter molecules are interlocked like ch
 | Gram-negative | DNA Gyrase       | Topoisomerase IV |
 | Gram-positive | Topoisomerase IV | DNA Gyrase       |
 
-::: notes
+<br>
+
+::: aside
 This is clinically important because it affects resistance development. The organism's more sensitive enzyme determines the primary target for a given quinolone.
 :::
 
@@ -175,21 +160,21 @@ This is clinically important because it affects resistance development. The orga
 
 <br>
 
-How quinolones kill bacteria:
+**How quinolones kill bacteria:**
 
-::: incremental
+
 1.  Bind to topoisomerase-DNA complex (not enzyme alone)
 2.  Block resealing of DNA double-strand breaks
 3.  Stabilize covalent enzyme-DNA intermediates
 4.  Create barriers to replication fork and transcription
 5.  Convert to permanent DNA breaks → cell death
-:::
 
-::: notes
+
+::: aside
 Quinolones don't simply inhibit enzyme function—they convert these enzymes into DNA-damaging agents. This "poisoning" of the topoisomerases is what makes quinolones bactericidal.
 :::
 
-## Bactericidal Activity Features
+## Bactericidal activity features
 
 <br>
 
@@ -203,25 +188,26 @@ Quinolones don't simply inhibit enzyme function—they convert these enzymes int
 
 **Post-antibiotic effect:** 1-2 hours
 
-::: notes
+::: aside
 The concentration-dependent killing and post-antibiotic effect support once-daily or extended-interval dosing strategies that maximize peak concentrations.
 :::
 
-# Resistance Mechanisms
+# Resistance Mechanisms {background-color="#b20e10"}
 
-## Overview of Resistance
+
+## Overview of resistance
 
 <br>
 
 Quinolone resistance occurs through:
 
-::: incremental
+
 1.  **Target mutations** — alterations in GyrA, GyrB, ParC, ParE
 2.  **Efflux pumps** — active drug extrusion
 3.  **Plasmid-mediated** — qnr genes, modifying enzymes
-:::
 
-::: notes
+
+::: aside
 Resistance is multifactorial and often involves combinations of these mechanisms. Understanding them helps predict cross-resistance patterns and guide empirical therapy.
 :::
 
