@@ -42,13 +42,17 @@ csl: diagnostic-microbiology-and-infectious-disease.csl
 
 </center>
 
-# Introduction & Overviewv {background-color="#b20e10"}
+# Introduction & Overview {background-color="#b20e10"}
 
-## Learning Objectives {.smaller}
+## Learning objectives
 
-By the end of this lecture, you should be able to:
+<br>
 
-::: incremental
+## By the end of this lecture, you should be able to:
+
+<br>
+
+::: {}
 1.  Describe the mechanism of action of fluoroquinolones
 2.  Explain resistance mechanisms and their clinical implications
 3.  Compare the spectrum of activity among different quinolones
@@ -57,28 +61,28 @@ By the end of this lecture, you should be able to:
 6.  Recognize important adverse effects and drug interactions
 :::
 
-::: notes
-Welcome to our lecture on quinolones. This is a comprehensive class of antibiotics that has evolved significantly since nalidixic acid was first introduced in the 1960s. Today we'll cover everything from mechanism to clinical application.
-:::
+## Quinolone evolution
 
-## Quinolone Evolution {.smaller}
+<br>
 
 | Generation | Examples                   | Key Features                        |
-|------------------------|--------------------|----------------------------|
+|------------|----------------------------|-------------------------------------|
 | 1st        | Nalidixic acid             | UTI only; narrow spectrum           |
 | 2nd        | Norfloxacin, Ciprofloxacin | Broader gram-negative; systemic use |
 | 3rd        | Levofloxacin               | Enhanced gram-positive              |
 | 4th        | Moxifloxacin, Gemifloxacin | Enhanced respiratory pathogens      |
 
-::: notes
+::: aside
 The quinolones have evolved dramatically. First-generation agents like nalidixic acid were limited to UTIs. Modern fluoroquinolones have much broader activity and systemic applications.
 :::
 
-## Currently Available Quinolones
+## Currently available quinolones
+
+<br>
 
 ::::: columns
 ::: {.column width="50%"}
-**Older Agents:**
+**Older agents:**
 
 - Norfloxacin
 - Ciprofloxacin
@@ -86,7 +90,7 @@ The quinolones have evolved dramatically. First-generation agents like nalidixic
 :::
 
 ::: {.column width="50%"}
-**Newer Agents:**
+**Newer agents:**
 
 - Levofloxacin
 - Moxifloxacin
@@ -99,9 +103,11 @@ The quinolones have evolved dramatically. First-generation agents like nalidixic
 These are the quinolones currently available in clinical practice. Ciprofloxacin and levofloxacin are the most commonly used. Delafloxacin is the newest addition, approved for skin infections.
 :::
 
-# Mechanism of Action
+# Mechanism of Action {background-color="#b20e10"}
 
 ## Primary Targets: Topoisomerases
+
+<br>
 
 Quinolones target two essential bacterial enzymes:
 
@@ -117,6 +123,8 @@ The key to understanding quinolone action is recognizing these two targets. Both
 :::
 
 ## DNA Gyrase Function
+
+<br>
 
 DNA gyrase uniquely:
 
@@ -134,6 +142,8 @@ DNA gyrase is the only enzyme that can introduce negative supercoils. This is es
 
 ## Topoisomerase IV Function
 
+<br>
+
 Topoisomerase IV:
 
 ::: incremental
@@ -150,6 +160,8 @@ When circular DNA replicates, the two daughter molecules are interlocked like ch
 
 ## Species-Dependent Primary Targets
 
+<br>
+
 | Organism Type | Primary Target   | Secondary Target |
 |---------------|------------------|------------------|
 | Gram-negative | DNA Gyrase       | Topoisomerase IV |
@@ -160,6 +172,8 @@ This is clinically important because it affects resistance development. The orga
 :::
 
 ## Mechanism of Bacterial Killing {.smaller}
+
+<br>
 
 How quinolones kill bacteria:
 
@@ -176,6 +190,8 @@ Quinolones don't simply inhibit enzyme function—they convert these enzymes int
 :::
 
 ## Bactericidal Activity Features
+
+<br>
 
 ::: callout-important
 ## Key Point
@@ -195,6 +211,8 @@ The concentration-dependent killing and post-antibiotic effect support once-dail
 
 ## Overview of Resistance
 
+<br>
+
 Quinolone resistance occurs through:
 
 ::: incremental
@@ -209,6 +227,8 @@ Resistance is multifactorial and often involves combinations of these mechanisms
 
 ## Target Mutations: QRDR
 
+<br>
+
 **Quinolone Resistance-Determining Region:**
 
 - GyrA mutations cluster at amino acids 67-106
@@ -220,6 +240,8 @@ The QRDR is near the active site of the enzyme. Mutations here reduce quinolone 
 :::
 
 ## Stepwise Resistance Development
+
+<br>
 
 ::: incremental
 1.  First mutation in primary target enzyme
@@ -238,6 +260,8 @@ This is why monotherapy for serious infections can be problematic. Sequential mu
 
 ## Efflux Pumps: Gram-Negatives {.smaller}
 
+<br>
+
 | Organism        | Pump System | Clinical Significance              |
 |-----------------|-------------|------------------------------------|
 | *E. coli*       | AcrAB-TolC  | Often combined with gyrA mutations |
@@ -250,6 +274,8 @@ These pumps belong to the RND family and have broad substrate profiles—hence t
 :::
 
 ## Efflux Pumps: Gram-Positives
+
+<br>
 
 **S. aureus:**
 
@@ -267,6 +293,8 @@ Efflux pumps in gram-positives show variable substrate profiles. This explains w
 
 ## Plasmid-Mediated Resistance: Qnr {.smaller}
 
+<br>
+
 **Qnr proteins** protect topoisomerases from quinolone action:
 
 - Seven families: qnrA, qnrB, qnrS, qnrC, qnrD, qnrE, qnrVC
@@ -279,6 +307,8 @@ Qnr genes are particularly concerning because they lower the threshold for selec
 :::
 
 ## Plasmid-Mediated: Modifying Enzymes
+
+<br>
 
 **AAC(6')-Ib-cr:**
 
@@ -294,6 +324,8 @@ This enzyme specifically targets quinolones with an unsubstituted piperazinyl ni
 :::
 
 ## Clinical Implications of Resistance
+
+<br>
 
 ::: callout-warning
 ## Rising Resistance
@@ -311,6 +343,8 @@ These resistance rates have major clinical implications. We can no longer rely o
 # Antimicrobial Activity
 
 ## Spectrum Overview
+
+<br>
 
 ::::: columns
 ::: {.column width="50%"}
@@ -337,6 +371,8 @@ Understanding the spectrum helps guide agent selection. Ciprofloxacin remains th
 
 ## Gram-Negative Activity
 
+<br>
+
 ::: callout-tip
 ## Ciprofloxacin
 
@@ -352,6 +388,8 @@ For serious pseudomonal infections, combination therapy is often recommended to 
 
 ## Gram-Positive Activity Comparison {.smaller}
 
+<br>
+
 | Organism        | Cipro | Levo | Moxi | Gemi | Dela  |
 |-----------------|-------|------|------|------|-------|
 | MSSA            | 0.5   | 0.25 | 0.12 | 0.06 | 0.008 |
@@ -365,6 +403,8 @@ Note how delafloxacin maintains good activity even against MRSA. This explains i
 :::
 
 ## Respiratory Pathogens
+
+<br>
 
 "Respiratory fluoroquinolones" have enhanced activity against:
 
@@ -383,6 +423,8 @@ This enhanced respiratory pathogen coverage makes these agents attractive for CA
 
 ## Anaerobic Activity
 
+<br>
+
 | Agent            | B. fragilis MIC~90~ |
 |------------------|---------------------|
 | Ciprofloxacin    | 4-64                |
@@ -400,6 +442,8 @@ This is important for intra-abdominal infections and diabetic foot infections wh
 
 ## Mycobacterial Activity {.smaller}
 
+<br>
+
 | Agent         | M. tuberculosis | M. avium | M. fortuitum |
 |---------------|-----------------|----------|--------------|
 | Ciprofloxacin | 1               | 16       | 0.3-\>4      |
@@ -411,6 +455,8 @@ Moxifloxacin is the most potent agent against M. tuberculosis and is now include
 :::
 
 ## Anthrax and Bioterrorism
+
+<br>
 
 ::: callout-important
 ## CDC Recommendations
@@ -428,6 +474,8 @@ In a bioterrorism scenario, resistance cannot be assumed. The concern is that an
 
 ## Absorption Characteristics
 
+<br>
+
 ::: incremental
 - Bioavailability: 50-100% (most \>70%)
 - Peak levels: 1-3 hours post-dose
@@ -440,6 +488,8 @@ The excellent oral bioavailability of most quinolones allows oral step-down ther
 :::
 
 ## Peak Serum Concentrations {.smaller}
+
+<br>
 
 | Quinolone     | Dose (mg) | C~max~ (μg/mL) |
 |---------------|-----------|----------------|
@@ -455,6 +505,8 @@ Delafloxacin achieves the highest peak levels. For concentration-dependent killi
 :::
 
 ## Tissue Distribution {.smaller}
+
+<br>
 
 Concentrations **exceeding** serum levels:
 
@@ -472,6 +524,8 @@ High intracellular concentrations make quinolones effective against intracellula
 
 ## CSF Penetration
 
+<br>
+
 ::: callout-warning
 CSF penetration is generally **LOW** without meningeal inflammation
 :::
@@ -485,6 +539,8 @@ While quinolones are not first-line for meningitis, they may have a role in spec
 :::
 
 ## Elimination Routes
+
+<br>
 
 ::::: columns
 ::: {.column width="50%"}
@@ -512,6 +568,8 @@ Knowing the elimination route is essential for dosing. Moxifloxacin is particula
 
 ## Renal Dosing Adjustments {.smaller}
 
+<br>
+
 | Agent            | CrCl 10-50    | CrCl \<10     |
 |------------------|---------------|---------------|
 | Norfloxacin      | q24h          | q24h          |
@@ -526,6 +584,8 @@ Moxifloxacin's lack of need for renal adjustment makes it attractive in patients
 
 ## Drug Interaction: Cations
 
+<br>
+
 ::: callout-important
 ## Critical Interaction
 
@@ -539,6 +599,8 @@ This is one of the most important drug interactions to remember. Antacids, suppl
 :::
 
 ## Drug Interaction: CYP1A2 {.smaller}
+
+<br>
 
 **Ciprofloxacin inhibits CYP1A2:**
 
@@ -558,6 +620,8 @@ Ciprofloxacin is the main culprit here. The tizanidine interaction is particular
 :::
 
 ## Drug Interaction: QT Prolongation
+
+<br>
 
 ::: callout-warning
 Avoid combining with other QT-prolonging agents:
@@ -579,6 +643,8 @@ QT prolongation is a class effect but varies by agent. In high-risk patients, co
 
 ## Urinary Tract Infections
 
+<br>
+
 **Uncomplicated cystitis (3-day course):**
 
 - 81-96% cure rates
@@ -595,6 +661,8 @@ While highly effective, quinolones are no longer first-line for uncomplicated UT
 
 ## Complicated UTIs and Pyelonephritis
 
+<br>
+
 - 7-14 day treatment duration
 - Ciprofloxacin, levofloxacin: 95% eradication rates
 - Good coverage of resistant gram-negatives
@@ -605,6 +673,8 @@ For complicated UTIs, quinolones remain important options because they cover the
 :::
 
 ## Prostatitis
+
+<br>
 
 ::: callout-tip
 ## First-line for Chronic Bacterial Prostatitis
@@ -620,6 +690,8 @@ The prostatic penetration and gram-negative coverage make quinolones ideal for p
 
 ## Sexually Transmitted Infections
 
+<br>
+
 **NO longer recommended for empirical gonorrhea treatment!**
 
 ::: incremental
@@ -633,6 +705,8 @@ This is a major change from previous practice. Ceftriaxone is now standard for g
 :::
 
 ## Gastrointestinal Infections {.smaller}
+
+<br>
 
 | Indication            | Agent         | Duration  |
 |-----------------------|---------------|-----------|
@@ -651,6 +725,8 @@ Quinolones remain first-line for shigellosis and traveler's diarrhea. For typhoi
 
 ## Community-Acquired Pneumonia
 
+<br>
+
 "Respiratory fluoroquinolones" provide:
 
 ::: incremental
@@ -665,6 +741,8 @@ For patients with comorbidities, recent antibiotics, or in areas with high pneum
 :::
 
 ## CAP: When to Use Quinolones
+
+<br>
 
 ::: callout-tip
 ## IDSA/ATS Guidelines
@@ -683,6 +761,8 @@ Guidelines emphasize that quinolones should be reserved for specific situations 
 
 ## Hospital-Acquired Pneumonia
 
+<br>
+
 - Ciprofloxacin or levofloxacin may be used
 - Usually part of combination regimen
 - Important for *Pseudomonas* coverage
@@ -693,6 +773,8 @@ In HAP/VAP, quinolones provide valuable antipseudomonal coverage. However, high 
 :::
 
 ## Skin and Soft Tissue Infections
+
+<br>
 
 **Delafloxacin** — newest quinolone:
 
@@ -708,6 +790,8 @@ Delafloxacin fills a niche for SSTIs where you want oral therapy but need MRSA c
 :::
 
 ## Bone and Joint Infections
+
+<br>
 
 Advantages of quinolones:
 
@@ -728,6 +812,8 @@ The ability to transition to oral therapy is particularly valuable for osteomyel
 
 ## Mycobacterial Infections
 
+<br>
+
 **Tuberculosis:**
 
 - Moxifloxacin, levofloxacin in MDR-TB regimens
@@ -747,6 +833,8 @@ Despite hopes that fluoroquinolones could shorten TB treatment, clinical trials 
 
 ## Overview of Safety Concerns
 
+<br>
+
 ::: callout-important
 ## FDA Black Box Warnings
 
@@ -762,6 +850,8 @@ The FDA has progressively added warnings to fluoroquinolones. These serious adve
 :::
 
 ## GI Adverse Effects
+
+<br>
 
 Most common adverse effects (1-5%):
 
@@ -780,6 +870,8 @@ GI effects are usually mild and self-limited. The C. difficile association is mo
 
 ## CNS Adverse Effects {.smaller}
 
+<br>
+
 | Effect       | Frequency |
 |--------------|-----------|
 | Headache     | 1-4%      |
@@ -795,6 +887,8 @@ CNS effects are generally mild but can be troublesome, especially in elderly pat
 :::
 
 ## Tendinopathy
+
+<br>
 
 ::: callout-important
 ## FDA Black Box Warning
@@ -818,6 +912,8 @@ The tendinopathy risk has changed prescribing habits significantly. Patients sho
 
 ## Peripheral Neuropathy
 
+<br>
+
 ::: callout-important
 ## FDA Warning
 
@@ -833,6 +929,8 @@ Unlike most drug-induced neuropathies, quinolone-associated neuropathy may not r
 :::
 
 ## Cardiac: QT Prolongation
+
+<br>
 
 Relative risk by agent:
 
@@ -852,6 +950,8 @@ This is a class effect but varies significantly by agent. If a quinolone is need
 
 ## Dysglycemia
 
+<br>
+
 Both hypo- and hyperglycemia reported:
 
 - Gatifloxacin (withdrawn from systemic use)
@@ -867,6 +967,8 @@ Gatifloxacin was withdrawn from systemic use due to severe dysglycemia cases. Ot
 :::
 
 ## Special Populations
+
+<br>
 
 **Pediatrics:**
 
@@ -889,6 +991,8 @@ The pediatric restriction is based on animal studies showing cartilage damage in
 
 ## When Quinolones Are Preferred
 
+<br>
+
 ::: incremental
 1.  Chronic bacterial prostatitis
 2.  Complicated UTI/pyelonephritis (resistant organisms)
@@ -902,6 +1006,8 @@ These are situations where quinolone advantages clearly outweigh the risks. The 
 :::
 
 ## When to Avoid Quinolones
+
+<br>
 
 ::: incremental
 1.  Uncomplicated UTI (use TMP-SMX, nitrofurantoin first)
@@ -917,6 +1023,8 @@ Stewardship principles emphasize reserving quinolones for situations where they'
 
 ## Key Drug Interactions to Remember
 
+<br>
+
 | Interaction                | Management                            |
 |----------------------------|---------------------------------------|
 | Cation-containing products | Separate by 2+ hours                  |
@@ -930,6 +1038,8 @@ These five interactions should be committed to memory. The cation interaction is
 :::
 
 ## Agent Selection Summary {.smaller}
+
+<br>
 
 | Clinical Scenario         | Preferred Agent(s)          |
 |---------------------------|-----------------------------|
@@ -947,6 +1057,8 @@ This table summarizes agent selection based on clinical scenario. Matching the r
 
 ## Take-Home Points
 
+<br>
+
 ::: incremental
 1.  Dual topoisomerase targets, but resistance develops stepwise
 2.  Ciprofloxacin = best gram-negative; newer agents = better gram-positive
@@ -961,6 +1073,8 @@ These six points capture the essence of quinolone pharmacology and clinical use.
 :::
 
 ## Questions?
+
+<br>
 
 Thank you for your attention!
 
@@ -980,6 +1094,8 @@ I hope this lecture has given you a solid foundation in quinolone pharmacology a
 
 ## MIC Table: Gram-Negative Pathogens {.smaller}
 
+<br>
+
 | Organism         | Cipro  | Levo  | Moxi   |
 |------------------|--------|-------|--------|
 | *E. coli*        | 0.25   | 0.5   | 0.25   |
@@ -996,6 +1112,8 @@ This slide is for reference. Note how ciprofloxacin remains the most potent agen
 
 ## MIC Table: Atypical Pathogens {.smaller}
 
+<br>
+
 | Organism          | Cipro      | Levo       | Moxi     |
 |-------------------|------------|------------|----------|
 | *Legionella* spp. | 0.016-0.06 | 0.016-0.03 | 0.06     |
@@ -1010,6 +1128,8 @@ All respiratory fluoroquinolones have good activity against atypical pathogens. 
 :::
 
 ## Dosing Reference Card {.smaller}
+
+<br>
 
 | Agent         | Standard Dose      | Renal Adjustment |
 |---------------|--------------------|------------------|
