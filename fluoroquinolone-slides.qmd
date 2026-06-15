@@ -107,6 +107,10 @@ The quinolones have evolved dramatically. First-generation agents like nalidixic
 These are the quinolones currently available in clinical practice. Ciprofloxacin and levofloxacin are the most commonly used. Delafloxacin is the newest addition, approved for skin infections.
 :::
 
+## Quinolone structures
+
+![](fluoroquinolone-images/structures.png){fig-align="center" width="600"}
+
 # Mechanism of Action {background-color="#b20e10"}
 
 ## Primary Targets: Topoisomerases
@@ -156,12 +160,11 @@ When circular DNA replicates, the two daughter molecules are interlocked like ch
 This is clinically important because it affects resistance development. The organism's more sensitive enzyme determines the primary target for a given quinolone.
 :::
 
-## Mechanism of Bacterial Killing {.smaller}
+## Mechanism of bacterial killing
 
 <br>
 
 **How quinolones kill bacteria:**
-
 
 1.  Bind to topoisomerase-DNA complex (not enzyme alone)
 2.  Block resealing of DNA double-strand breaks
@@ -169,6 +172,7 @@ This is clinically important because it affects resistance development. The orga
 4.  Create barriers to replication fork and transcription
 5.  Convert to permanent DNA breaks → cell death
 
+<br> <br>
 
 ::: aside
 Quinolones don't simply inhibit enzyme function—they convert these enzymes into DNA-damaging agents. This "poisoning" of the topoisomerases is what makes quinolones bactericidal.
@@ -186,7 +190,7 @@ Quinolones don't simply inhibit enzyme function—they convert these enzymes int
 - Paradoxical decrease at very high concentrations
 :::
 
-**Post-antibiotic effect:** 1-2 hours
+<br> <br> **Post-antibiotic effect:** 1-2 hours
 
 ::: aside
 The concentration-dependent killing and post-antibiotic effect support once-daily or extended-interval dosing strategies that maximize peak concentrations.
@@ -194,57 +198,61 @@ The concentration-dependent killing and post-antibiotic effect support once-dail
 
 # Resistance Mechanisms {background-color="#b20e10"}
 
-
 ## Overview of resistance
 
 <br>
 
 Quinolone resistance occurs through:
 
-
 1.  **Target mutations** — alterations in GyrA, GyrB, ParC, ParE
 2.  **Efflux pumps** — active drug extrusion
 3.  **Plasmid-mediated** — qnr genes, modifying enzymes
 
+<br> <br>
 
 ::: aside
 Resistance is multifactorial and often involves combinations of these mechanisms. Understanding them helps predict cross-resistance patterns and guide empirical therapy.
 :::
 
-## Target Mutations: QRDR
+## Target mutations: QRDR
 
 <br>
 
-**Quinolone Resistance-Determining Region:**
+**Quinolone Resistance-Determining Region (QRDR):**
 
 - GyrA mutations cluster at amino acids 67-106
 - Most common: Serine-83 → Leucine/Tryptophan
 - Similar "hot spots" in ParC (position 80)
 
-::: notes
+<br> <br>
+
+::: aside
 The QRDR is near the active site of the enzyme. Mutations here reduce quinolone binding while preserving enzyme function. Serine-83 mutations in GyrA cause the largest resistance increments.
 :::
 
-## Stepwise Resistance Development
+## Stepwise resistance development
 
 <br>
 
-::: incremental
 1.  First mutation in primary target enzyme
 2.  Low-level resistance (8-fold MIC increase)
 3.  Second mutation in secondary target
 4.  High-level clinical resistance
-:::
+5.  Low-level resistance (8-fold MIC increase)
+6.  Second mutation in secondary target
+7.  High-level clinical resistance
 
 ::: callout-warning
 Serial passage selects progressively resistant mutants!
 :::
 
-::: notes
+<br>
+
+::: aside
 This is why monotherapy for serious infections can be problematic. Sequential mutations accumulate, and having two targets provides only partial protection if both can mutate.
 :::
 
-## Efflux Pumps: Gram-Negatives {.smaller}
+## Efflux pumps: Gram-negatives
 
 <br>
 
@@ -255,11 +263,13 @@ This is why monotherapy for serious infections can be problematic. Sequential mu
 | *P. aeruginosa* | MexCD-OprJ  | Selected by fluoroquinolone use    |
 | *K. pneumoniae* | OqxAB-TolC  | Plasmid-encoded                    |
 
-::: notes
+<br> <br>
+
+::: aside
 These pumps belong to the RND family and have broad substrate profiles—hence the term "multidrug resistance pumps." Overexpression contributes to resistance to multiple antibiotic classes.
 :::
 
-## Efflux Pumps: Gram-Positives
+## Efflux pumps: Gram-positives
 
 <br>
 
@@ -273,11 +283,13 @@ These pumps belong to the RND family and have broad substrate profiles—hence t
 Moxifloxacin is not affected by NorA overexpression!
 :::
 
-::: notes
+<br> <br>
+
+::: aside
 Efflux pumps in gram-positives show variable substrate profiles. This explains why some quinolones retain activity when others don't, even against the same organism.
 :::
 
-## Plasmid-Mediated Resistance: Qnr {.smaller}
+## Plasmid-mediated resistance: Qnr
 
 <br>
 
@@ -288,24 +300,24 @@ Efflux pumps in gram-positives show variable substrate profiles. This explains w
 - Alone cause only low-level resistance
 - **BUT:** Facilitate selection of chromosomal mutations
 
-::: notes
+::: aside
 Qnr genes are particularly concerning because they lower the threshold for selecting resistant mutants. They're often found on plasmids carrying other resistance genes, contributing to MDR.
 :::
 
-## Plasmid-Mediated: Modifying Enzymes
+## Plasmid-mediated: Modifying enzymes
 
 <br>
 
 **AAC(6')-Ib-cr:**
 
-::: incremental
 - Variant aminoglycoside acetyltransferase
 - Acetylates piperazinyl nitrogen of ciprofloxacin/norfloxacin
 - Causes 3-4 fold MIC increase
 - Does NOT affect moxifloxacin, levofloxacin
-:::
 
-::: notes
+<br> <br>
+
+::: aside
 This enzyme specifically targets quinolones with an unsubstituted piperazinyl nitrogen. It's another example of how resistance mechanisms can show quinolone-specific effects.
 :::
 
@@ -316,13 +328,13 @@ This enzyme specifically targets quinolones with an unsubstituted piperazinyl ni
 ::: callout-warning
 ## Rising Resistance
 
-- *E. coli*: 20-40% resistance in some areas
+- *E. coli*: 20-40% resistance in some areas...in Italy can approach 70-90%
 - *P. aeruginosa*: 20-30% resistance
 - *N. gonorrhoeae*: No longer recommended empirically
 - *Salmonella*: Increasing worldwide
 :::
 
-::: notes
+::: aside
 These resistance rates have major clinical implications. We can no longer rely on fluoroquinolones for empirical treatment of gonorrhea, and their use for other infections requires local susceptibility data.
 :::
 
