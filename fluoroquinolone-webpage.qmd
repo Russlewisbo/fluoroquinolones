@@ -2,8 +2,7 @@
 title: "Chapter 34: Quinolones"
 subtitle: "Fluoroquinolone Antimicrobial Agents"
 author:
-  - "David C. Hooper"
-  - "Jacob Strahilevitz"
+  - "Russell E. Lewis"
 format:
   html:
     toc: true
@@ -12,9 +11,13 @@ format:
     number-sections: true
     theme: cosmo
     code-fold: true
-bibliography: references.bib
-csl: https://raw.githubusercontent.com/citation-style-language/styles/master/american-medical-association.csl
+bibliography: fluoroquinolone-references.bib
+csl: diagnostic-microbiology-and-infectious-disease.csl
 ---
+
+[Link to HTML slides] (https://russlewisbo.github.io/fluoroquinolones/fluoroquinolone-slides.html#/fluoroquinolones)
+[Link to recorded lecture]()
+
 
 ## Short View Summary {#sec-summary}
 
@@ -94,13 +97,21 @@ Acute bacterial skin and skin structure infections.
 
 Quinolones rapidly inhibit bacterial DNA synthesis, leading to bacterial cell death. The molecular targets are two members of the topoisomerase class of enzymes: **DNA gyrase** and **topoisomerase IV** [@drlica2003mechanisms; @wang1996topoisomerases].
 
+### Quinolone Structures
+
+The quinolone nucleus and key structural modifications are shown in @fig-structures [@domagala1994structure; @wolfson1989fluoroquinolone].
+
+![Quinolone chemical structures](fluoroquinolone-images/structures.png){#fig-structures fig-align="center" width="80%"}
+
 ### DNA Gyrase
 
-DNA gyrase is an essential bacterial enzyme composed of two A and two B subunits (products of the *gyrA* and *gyrB* genes). Its functions include:
+DNA gyrase is an essential bacterial enzyme composed of two A and two B subunits (products of the *gyrA* and *gyrB* genes) [@drlica1997gyrase]. Its functions include:
 
 - Introduction of negative superhelical twists into chromosomal and plasmid DNA
 - Removal of positive superhelical twists ahead of the DNA replication fork
 - Regulation of DNA superhelicity (along with topoisomerase I)
+
+![DNA gyrase function and quinolone mechanism of action](fluoroquinolone-images/moa.png){#fig-moa fig-align="center" width="80%"}
 
 ::: {.callout-note}
 ## Type II Topoisomerases
@@ -109,10 +120,12 @@ DNA gyrase activities result from coordinated breaking of both strands of duplex
 
 ### Topoisomerase IV
 
-Topoisomerase IV is another type II topoisomerase composed of two subunits encoded by *parC* and *parE* genes. It functions to:
+Topoisomerase IV is another type II topoisomerase composed of two subunits encoded by *parC* and *parE* genes [@kato1990topoisomerase]. It functions to:
 
 - Resolve (decatenate) interlinked daughter DNA molecules resulting from circular DNA replication
 - Allow segregation of DNA into daughter cells
+
+![Topoisomerase IV decatenation function](fluoroquinolone-images/Topof.png){#fig-topoiv fig-align="center" width="80%"}
 
 ::: {.callout-tip}
 ## Species Variation
@@ -128,7 +141,7 @@ Quinolones inhibit enzyme function by:
 3. Creating barriers to DNA replication fork and transcription complexes
 4. Converting to permanent double-stranded DNA breaks
 
-Quinolones bind specifically to the complex of DNA gyrase and DNA (not to DNA gyrase alone). Single *gyrA* or *gyrB* mutations can produce quinolone resistance.
+Quinolones bind specifically to the complex of DNA gyrase and DNA (not to DNA gyrase alone). Single *gyrA* or *gyrB* mutations can produce quinolone resistance [@kohanski2007common].
 
 ### Primary vs Secondary Targets
 
@@ -164,6 +177,8 @@ High-level resistance develops through sequential mutations in *gyrA*/*gyrB* and
 - OqxAB-TolC (*K. pneumoniae*)
 - AdeABC, AdeFGH (*A. baumannii*)
 
+These RND-family pumps have broad substrate profiles, contributing to multidrug resistance [@poole2000efflux; @piddock2006efflux].
+
 **Efflux pumps in gram-positive bacteria:**
 
 - NorA, NorB, NorC (*S. aureus*)
@@ -179,7 +194,7 @@ Although plasmid-mediated resistance alone usually causes only low-level resista
 
 #### Qnr Proteins
 
-The *qnr* genes encode pentapeptide repeat proteins that protect DNA gyrase and topoisomerase IV from quinolone action. Seven families exist: *qnrA*, *qnrB*, *qnrS*, *qnrC*, *qnrD*, *qnrE*, and *qnrVC* [@strahilevitz2009plasmid].
+The *qnr* genes encode pentapeptide repeat proteins that protect DNA gyrase and topoisomerase IV from quinolone action. Seven families exist: *qnrA*, *qnrB*, *qnrS*, *qnrC*, *qnrD*, *qnrE*, and *qnrVC* [@martinez1998quinolone; @tran2002plasmid; @strahilevitz2009plasmid].
 
 #### Modifying Enzymes
 
@@ -210,9 +225,26 @@ Activity against streptococci varies among quinolones:
 
 Gemifloxacin and delafloxacin are especially potent against *S. pneumoniae* and *S. aureus*, respectively.
 
+| Organism        | Cipro | Levo | Moxi | Gemi | Dela  |
+|-----------------|-------|------|------|------|-------|
+| MSSA            | 0.5   | 0.25 | 0.12 | 0.06 | 0.008 |
+| MRSA            | ≥32   | 16   | 4    | 8    | 0.5   |
+| *S. pneumoniae* | 2     | 1    | 0.25 | 0.06 | 0.015 |
+
+: Gram-positive MIC~90~ values (μg/mL) {#tbl-gram-pos-mic}
+
 ### Anaerobic Activity
 
 Moxifloxacin, delafloxacin, and sitafloxacin have increased potency against anaerobes.
+
+| Agent            | B. fragilis MIC~90~ |
+|------------------|---------------------|
+| Ciprofloxacin    | 4–64                |
+| Levofloxacin     | 2–>16               |
+| **Moxifloxacin** | **0.5–8**           |
+| **Delafloxacin** | **0.12**            |
+
+: Anaerobic activity comparison (MIC~90~ μg/mL) {#tbl-anaerobic}
 
 ### Mycobacterial Activity
 
@@ -222,6 +254,14 @@ Ciprofloxacin, ofloxacin, levofloxacin, gatifloxacin, and moxifloxacin are activ
 - *M. fortuitum*
 - *M. kansasii*
 - Some strains of *M. chelonae* and *M. abscessus*
+
+| Agent         | M. tuberculosis | M. avium | M. fortuitum |
+|---------------|-----------------|----------|--------------|
+| Ciprofloxacin | 1               | 16       | 0.3–>4       |
+| Levofloxacin  | 0.25–1          | 0.5–64   | 0.06–2       |
+| Moxifloxacin  | 0.125–0.5       | 0.5–16   | 0.06–1       |
+
+: Mycobacterial MIC values (μg/mL) {#tbl-mycobacterial}
 
 ::: {.callout-note}
 ## Tuberculosis Treatment
@@ -238,6 +278,15 @@ All fluoroquinolones have activity against:
 - *Chlamydia trachomatis*
 - *Ureaplasma urealyticum*
 - *Mycoplasma hominis*
+
+| Organism          | Cipro      | Levo       | Moxi     |
+|-------------------|------------|------------|----------|
+| *Legionella* spp. | 0.016–0.06 | 0.016–0.03 | 0.06     |
+| *M. pneumoniae*   | 0.5–4      | 0.5–2.5    | 0.12–0.3 |
+| *C. pneumoniae*   | 2          | 0.5–1      | 0.06–1   |
+| *C. trachomatis*  | 0.5–2      | 0.25–0.5   | 0.06     |
+
+: Atypical pathogen MIC values (μg/mL) {#tbl-atypical}
 
 ### Factors Affecting Activity
 
@@ -316,7 +365,7 @@ CSF penetration is generally low, though fluoroquinolones penetrate better than 
 
 ::: {.callout-warning}
 ## Absorption Interactions
-Aluminum-, magnesium-, and calcium-containing antacids, sucralfate, iron supplements, and zinc-containing multivitamins markedly reduce quinolone absorption. Take quinolones 2 hours before or 2–6 hours after these agents.
+Aluminum-, magnesium-, and calcium-containing antacids, sucralfate, iron supplements, and zinc-containing multivitamins markedly reduce quinolone absorption. Take quinolones 2 hours before or 2–6 hours after these agents [@radandt1992interactions].
 :::
 
 **CYP1A2 interactions (primarily ciprofloxacin):**
@@ -336,7 +385,7 @@ Aluminum-, magnesium-, and calcium-containing antacids, sucralfate, iron supplem
 
 ### Urinary Tract Infections
 
-Quinolones are highly effective for UTIs, with urinary concentrations providing substantial therapeutic ratios against most pathogens.
+Quinolones are highly effective for UTIs, with urinary concentrations providing substantial therapeutic ratios against most pathogens [@gupta2011acute; @hooton2012uncomplicated].
 
 **Uncomplicated cystitis:**
 
@@ -356,13 +405,13 @@ For *S. saprophyticus* infections, 7-day regimens are preferred due to failures 
 
 ### Prostatitis
 
-Fluoroquinolones achieve therapeutic concentrations in prostatic tissue and are first-line for chronic bacterial prostatitis. Treatment duration: 4–6 weeks.
+Fluoroquinolones achieve therapeutic concentrations in prostatic tissue and are first-line for chronic bacterial prostatitis. Treatment duration: 4–6 weeks [@naber2008prostatitis].
 
 ### Sexually Transmitted Infections
 
 ::: {.callout-warning}
 ## Gonorrhea Resistance
-Due to increasing resistance, quinolones are no longer recommended for empirical treatment of gonorrhea in most areas. Use only if susceptibility is confirmed.
+Due to increasing resistance, quinolones are no longer recommended for empirical treatment of gonorrhea in most areas. Use only if susceptibility is confirmed [@hooper1989treatment].
 :::
 
 Quinolones remain effective for:
@@ -394,7 +443,7 @@ Respiratory fluoroquinolones (levofloxacin, moxifloxacin, gemifloxacin) are effe
 
 ::: {.callout-tip}
 ## CAP Guidelines
-Reserve respiratory fluoroquinolones for patients with comorbidities, recent antibiotic use, or in areas with high macrolide resistance.
+Reserve respiratory fluoroquinolones for patients with comorbidities, recent antibiotic use, or in areas with high macrolide resistance [@mandell2007idsa; @metlay2019cap].
 :::
 
 **COPD exacerbations:**
@@ -413,7 +462,7 @@ Ciprofloxacin or levofloxacin may be used, often in combination therapy, particu
 
 ### Bone and Joint Infections
 
-Fluoroquinolones achieve adequate bone concentrations and have good oral bioavailability, allowing transition from IV to oral therapy.
+Fluoroquinolones achieve adequate bone concentrations and have good oral bioavailability, allowing transition from IV to oral therapy [@berbari2015osteomyelitis; @lipsky2004diabetic].
 
 ::: {.callout-note}
 ## Combination Therapy
@@ -444,7 +493,7 @@ Most common adverse effects (1–5%):
 
 ::: {.callout-warning}
 ## C. difficile Risk
-All antibiotics increase *C. difficile* infection risk. Quinolones have been associated with outbreaks of the hypervirulent NAP1/BI/027 strain.
+All antibiotics increase *C. difficile* infection risk. Quinolones have been associated with outbreaks of the hypervirulent NAP1/BI/027 strain [@lode2003adverse].
 :::
 
 ### Central Nervous System
@@ -453,13 +502,13 @@ CNS effects occur in 1–4% of patients:
 
 - Headache, dizziness
 - Insomnia, restlessness
-- Rarely: seizures (particularly with high doses, renal impairment, or concurrent NSAIDs)
+- Rarely: seizures (particularly with high doses, renal impairment, or concurrent NSAIDs) [@lode2003adverse]
 
 ### Musculoskeletal
 
 ::: {.callout-important}
 ## FDA Black Box Warning
-Fluoroquinolones are associated with tendinitis and tendon rupture, particularly in patients >60 years, those on corticosteroids, and organ transplant recipients. The Achilles tendon is most commonly affected.
+Fluoroquinolones are associated with tendinitis and tendon rupture, particularly in patients >60 years, those on corticosteroids, and organ transplant recipients. The Achilles tendon is most commonly affected [@stahlmann2010tendon].
 :::
 
 Risk factors:
@@ -472,7 +521,9 @@ Risk factors:
 
 ### Cardiac
 
-QT prolongation is a class effect, varying by agent:
+QT prolongation is a class effect, varying by agent [@yap2003qt]:
+
+![QT prolongation risk with quinolones](fluoroquinolone-images/qtx.png){#fig-qt fig-align="center" width="80%"}
 
 - **Highest risk:** Moxifloxacin
 - **Moderate risk:** Levofloxacin, ofloxacin
@@ -489,7 +540,7 @@ Avoid quinolones (especially moxifloxacin) in patients with:
 
 ### Dysglycemia
 
-Both hypo- and hyperglycemia reported, particularly with:
+Both hypo- and hyperglycemia reported, particularly with [@fda2018fluoroquinolone]:
 
 - Gatifloxacin (withdrawn from systemic use)
 - Concurrent use of hypoglycemic agents
@@ -498,7 +549,7 @@ Both hypo- and hyperglycemia reported, particularly with:
 
 ::: {.callout-important}
 ## FDA Warning
-Peripheral neuropathy may occur rapidly (within days) and may be irreversible. Discontinue immediately if symptoms develop.
+Peripheral neuropathy may occur rapidly (within days) and may be irreversible. Discontinue immediately if symptoms develop [@fda2018fluoroquinolone].
 :::
 
 ### Photosensitivity
@@ -511,7 +562,7 @@ Rare but serious. Trovafloxacin withdrawn due to hepatotoxicity.
 
 ### Special Populations
 
-**Pediatrics:** Generally avoided due to concerns about cartilage toxicity, though ciprofloxacin approved for specific indications.
+**Pediatrics:** Generally avoided due to concerns about cartilage toxicity, though ciprofloxacin approved for specific indications [@lode2003adverse].
 
 **Pregnancy:** Category C; avoid unless no alternatives.
 
@@ -525,6 +576,20 @@ Fluoroquinolones remain valuable antimicrobial agents with broad-spectrum activi
 2. **Resistance:** Increasing resistance limits empirical use for some infections (gonorrhea, *Salmonella*)
 3. **Safety:** FDA warnings regarding tendinopathy, peripheral neuropathy, and CNS effects require careful patient selection
 4. **Drug interactions:** Absorption interactions with divalent cations; CYP1A2 interactions primarily with ciprofloxacin
+
+### Agent Selection Summary
+
+| Clinical Scenario         | Preferred Agent(s)          |
+|---------------------------|-----------------------------|
+| Pseudomonas infection     | Ciprofloxacin, Levofloxacin |
+| CAP/Respiratory           | Levofloxacin, Moxifloxacin  |
+| SSTI (including MRSA)     | Delafloxacin                |
+| UTI/Prostatitis           | Ciprofloxacin, Levofloxacin |
+| Renal impairment          | Moxifloxacin                |
+| Cardiac risk              | Ciprofloxacin               |
+| Anaerobic coverage needed | Moxifloxacin                |
+
+: Agent selection by clinical scenario {#tbl-agent-selection}
 
 ::: {.callout-tip}
 ## Stewardship Principles
