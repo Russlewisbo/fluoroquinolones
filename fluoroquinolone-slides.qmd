@@ -66,7 +66,7 @@ csl: diagnostic-microbiology-and-infectious-disease.csl
 <br>
 
 | Generation | Examples                   | Key Features                        |
-|------------------------|--------------------|----------------------------|
+|------------|----------------------------|-------------------------------------|
 | 1st        | Nalidixic acid             | UTI only; narrow spectrum           |
 | 2nd        | Norfloxacin, Ciprofloxacin | Broader gram-negative; systemic use |
 | 3rd        | Levofloxacin               | Enhanced gram-positive              |
