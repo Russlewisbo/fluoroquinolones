@@ -66,7 +66,7 @@ csl: diagnostic-microbiology-and-infectious-disease.csl
 <br>
 
 | Generation | Examples                   | Key Features                        |
-|------------|----------------------------|-------------------------------------|
+|------------------------|--------------------|----------------------------|
 | 1st        | Nalidixic acid             | UTI only; narrow spectrum           |
 | 2nd        | Norfloxacin, Ciprofloxacin | Broader gram-negative; systemic use |
 | 3rd        | Levofloxacin               | Enhanced gram-positive              |
@@ -80,8 +80,8 @@ The quinolones have evolved dramatically. First-generation agents like nalidixic
 
 <br>
 
-::::: columns
-::: {.column width="50%"}
+::::: {.columns style="justify-content: center;"}
+::: {.column width="35%"}
 **Older agents:**
 
 - Norfloxacin
@@ -89,7 +89,7 @@ The quinolones have evolved dramatically. First-generation agents like nalidixic
 - Ofloxacin
 :::
 
-::: {.column width="50%"}
+::: {.column width="35%"}
 **Newer agents:**
 
 - Levofloxacin
@@ -111,14 +111,14 @@ These are the quinolones currently available in clinical practice. Ciprofloxacin
 
 Quinolones target two essential bacterial enzymes:
 
-::: incremental
+::: {}
 - **DNA Gyrase** (GyrA, GyrB subunits)
 - **Topoisomerase IV** (ParC, ParE subunits)
 :::
 
 Both are Type II topoisomerases required for DNA replication.
 
-::: notes
+::: aside
 The key to understanding quinolone action is recognizing these two targets. Both are essential for bacterial survival, and quinolones exploit this by trapping them in complexes with DNA.
 :::
 
