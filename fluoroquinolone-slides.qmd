@@ -44,11 +44,9 @@ csl: diagnostic-microbiology-and-infectious-disease.csl
 
 # Introduction & Overview {background-color="#b20e10"}
 
-## Learning objectives
-
 <br>
 
-## By the end of this lecture, you should be able to:
+## Learning objectives:
 
 <br>
 
@@ -66,7 +64,7 @@ csl: diagnostic-microbiology-and-infectious-disease.csl
 <br>
 
 | Generation | Examples                   | Key Features                        |
-|------------|----------------------------|-------------------------------------|
+|------------------------|--------------------|----------------------------|
 | 1st        | Nalidixic acid             | UTI only; narrow spectrum           |
 | 2nd        | Norfloxacin, Ciprofloxacin | Broader gram-negative; systemic use |
 | 3rd        | Levofloxacin               | Enhanced gram-positive              |
@@ -80,7 +78,7 @@ The quinolones have evolved dramatically. First-generation agents like nalidixic
 
 <br>
 
-:::::: columns
+::::: columns
 ::: {.column width="50%"}
 **Older agents:**
 
@@ -91,17 +89,13 @@ The quinolones have evolved dramatically. First-generation agents like nalidixic
 
 ::: {.column width="50%"}
 **Newer agents:**
-:::
-
-::: {.column width="50%"}
-**Newer agents:**
 
 - Levofloxacin
 - Moxifloxacin
 - Gemifloxacin
 - Delafloxacin
 :::
-::::::
+:::::
 
 ::: notes
 These are the quinolones currently available in clinical practice. Ciprofloxacin and levofloxacin are the most commonly used. Delafloxacin is the newest addition, approved for skin infections.
@@ -113,7 +107,7 @@ These are the quinolones currently available in clinical practice. Ciprofloxacin
 
 # Mechanism of Action {background-color="#b20e10"}
 
-## Primary Targets: Topoisomerases
+## Primary targets: Topoisomerases
 
 <br>
 
@@ -139,7 +133,7 @@ DNA gyrase is the only enzyme that can introduce negative supercoils. This is es
 
 ## Topoisomerase IV function
 
-![](fluoroquinolone-images/Topof.png){fig-align="center"}
+![](fluoroquinolone-images/Topof.png){fig-align="center" width="800"}
 
 ::: aside
 When circular DNA replicates, the two daughter molecules are interlocked like chain links. Topoisomerase IV separates them so they can partition into daughter cells.
@@ -321,7 +315,7 @@ Qnr genes are particularly concerning because they lower the threshold for selec
 This enzyme specifically targets quinolones with an unsubstituted piperazinyl nitrogen. It's another example of how resistance mechanisms can show quinolone-specific effects.
 :::
 
-## Clinical Implications of Resistance
+## Clinical implications of resistance
 
 <br>
 
@@ -338,9 +332,9 @@ This enzyme specifically targets quinolones with an unsubstituted piperazinyl ni
 These resistance rates have major clinical implications. We can no longer rely on fluoroquinolones for empirical treatment of gonorrhea, and their use for other infections requires local susceptibility data.
 :::
 
-# Antimicrobial Activity
+# Antimicrobial Activity {background-color="#b20e10"}
 
-## Spectrum Overview
+## Spectrum overview
 
 <br>
 
@@ -367,7 +361,7 @@ These resistance rates have major clinical implications. We can no longer rely o
 Understanding the spectrum helps guide agent selection. Ciprofloxacin remains the most potent agent against gram-negatives, while newer agents have broader gram-positive coverage.
 :::
 
-## Gram-Negative Activity
+## Gram-negative activity
 
 <br>
 
@@ -377,10 +371,12 @@ Understanding the spectrum helps guide agent selection. Ciprofloxacin remains th
 Remains the most potent quinolone against gram-negative bacteria, especially *P. aeruginosa*
 :::
 
+<br> <br>
+
 - Only ciprofloxacin and levofloxacin suitable for *Pseudomonas*
 - Resistance may emerge during monotherapy for serious infections
 
-::: notes
+::: aside
 For serious pseudomonal infections, combination therapy is often recommended to prevent resistance emergence. Ciprofloxacin's gram-negative potency makes it the preferred quinolone for these infections.
 :::
 
