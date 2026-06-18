@@ -103,10 +103,10 @@ These are the quinolones currently available in clinical practice. Ciprofloxacin
 
 ## Quinolone structures
 
-![](fluoroquinolone-images/structures.png){fig-align="center" width="600"}
+![](fluoroquinolone-images/structures.png){fig-align="center" width="350"}
 
 ::: aside
-All quinolones share a bicyclic core with a carboxylic acid at C-3 and a ketone at C-4 — essential for binding to the topoisomerase-DNA complex. The fluorine at C-6 (the "fluoro" in fluoroquinolone) dramatically improves gram-negative potency and bioavailability compared to nalidixic acid. The C-7 substituent (piperazinyl, pyrrolidinyl, etc.) is the primary determinant of spectrum: bulkier cyclic amines at C-7 expand gram-positive and anaerobic activity. Substitutions at N-1 and C-8 further tune pharmacokinetics and target selectivity. [@domagala1994structure]
+All quinolones share a bicyclic core with a carboxylic acid at C-3 and a ketone at C-4 — essential for binding to the topoisomerase-DNA complex. The fluorine at C-6 (the "fluoro" in fluoroquinolone) dramatically improves gram-negative potency and bioavailability compared to nalidixic acid. The C-7 substituent (piperazinyl, pyrrolidinyl, etc.) is the primary determinant of spectrum: bulkier cyclic amines at C-7 expand gram-positive and anaerobic activity. Substitutions at N-1 and C-8 further tune pharmacokinetics and target selectivity [@domagala1994structure].
 :::
 
 # Mechanism of Action {background-color="#b20e10"}
