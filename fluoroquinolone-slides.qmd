@@ -92,18 +92,22 @@ The quinolones have evolved dramatically. First-generation agents like nalidixic
 
 - Levofloxacin
 - Moxifloxacin
-- Gemifloxacin
+- Gemifloxacin (not available in Italy)
 - Delafloxacin
 :::
 :::::
 
-::: notes
+::: aside
 These are the quinolones currently available in clinical practice. Ciprofloxacin and levofloxacin are the most commonly used. Delafloxacin is the newest addition, approved for skin infections.
 :::
 
 ## Quinolone structures
 
 ![](fluoroquinolone-images/structures.png){fig-align="center" width="600"}
+
+::: aside
+All quinolones share a bicyclic core with a carboxylic acid at C-3 and a ketone at C-4 — essential for binding to the topoisomerase-DNA complex. The fluorine at C-6 (the "fluoro" in fluoroquinolone) dramatically improves gram-negative potency and bioavailability compared to nalidixic acid. The C-7 substituent (piperazinyl, pyrrolidinyl, etc.) is the primary determinant of spectrum: bulkier cyclic amines at C-7 expand gram-positive and anaerobic activity. Substitutions at N-1 and C-8 further tune pharmacokinetics and target selectivity. [@domagala1994structure]
+:::
 
 # Mechanism of Action {background-color="#b20e10"}
 
@@ -474,12 +478,10 @@ In a bioterrorism scenario, resistance cannot be assumed. The concern is that an
 
 <br>
 
-::: incremental
 - Bioavailability: 50-100% (most \>70%)
 - Peak levels: 1-3 hours post-dose
 - Food delays but doesn't significantly reduce absorption
 - Enteral feeding may reduce absorption
-:::
 
 <br> <br>
 
@@ -510,7 +512,7 @@ Delafloxacin achieves the highest peak levels. For concentration-dependent killi
 
 <br>
 
-Concentrations **exceeding** serum levels:
+<center>Concentrations **exceeding** serum levels:</center>
 
 | Site                    | Fold Increase |
 |-------------------------|---------------|
@@ -549,7 +551,6 @@ While quinolones are not first-line for meningitis, they may have a role in spec
 <br>
 
 ::::: {style="display: flex; justify-content: center; gap: 4em;"}
-
 ::: div
 **Primarily Renal:**
 
@@ -567,7 +568,6 @@ Requires dose adjustment in renal impairment
 
 No renal dose adjustment
 :::
-
 :::::
 
 ::: aside
@@ -633,7 +633,7 @@ Ciprofloxacin is the main culprit here. The tizanidine interaction is particular
 
 ## Drug interactions: QT prolongation
 
-![](fluoroquinolone-images/qtx.png){fig-align="center"}
+![](fluoroquinolone-images/qtx.png){fig-align="center" width="800"}
 
 ## Drug interactions: QT prolongation
 
@@ -710,17 +710,15 @@ The prostatic penetration and gram-negative coverage make quinolones ideal for p
 
 **NO longer recommended for empirical gonorrhea treatment!**
 
-
 - High resistance rates (\>30% in many areas)
 - Use only if susceptibility confirmed
-- Still effective for *Chlamydia* and *M. genitalium*
-<br> <br>
+- Still effective for *Chlamydia* and *M. genitalium* <br> <br>
 
 ::: aside
 This is a major change from previous practice. Ceftriaxone is now standard for gonorrhea. <br> However, quinolones remain useful for other STIs like chlamydia when alternatives are contraindicated. [@hooper1989treatment]
 :::
 
-## Gastrointestinal Infections 
+## Gastrointestinal infections
 
 <br>
 
@@ -745,12 +743,10 @@ Quinolones remain first-line for shigellosis and traveler's diarrhea. <br> For t
 
 "Respiratory fluoroquinolones" provide:
 
-
 - Coverage of *S. pneumoniae* (including drug-resistant)
 - Activity against atypical pathogens
 - Single-agent monotherapy option
 - Oral or IV options
-
 
 ::: aside
 For patients with comorbidities, recent antibiotics, or in areas with high pneumococcal macrolide resistance, respiratory fluoroquinolones offer convenient monotherapy. [@mandell2007idsa; @metlay2019cap]
@@ -788,7 +784,7 @@ Guidelines emphasize that quinolones should be reserved for specific situations 
 In HAP/VAP, quinolones provide valuable antipseudomonal coverage. However, high resistance rates in many ICUs require culture-directed therapy. [@mandell2007idsa]
 :::
 
-## Skin and Soft Tissue Infections
+## Skin and soft tissue infections
 
 <br>
 
@@ -809,7 +805,6 @@ Delafloxacin fills a niche for SSTIs where you want oral therapy but need MRSA c
 
 Advantages of quinolones:
 
-
 - Good bone penetration
 - Excellent oral bioavailability
 - Allows IV → oral transition
@@ -825,7 +820,7 @@ Consider combination with rifampin for staphylococcal infections
 The ability to transition to oral therapy is particularly valuable for osteomyelitis requiring prolonged treatment. This allows earlier discharge and outpatient completion of therapy. [@berbari2015osteomyelitis; @lipsky2004diabetic]
 :::
 
-## Mycobacterial Infections
+## Mycobacterial infections
 
 <br>
 
@@ -864,7 +859,7 @@ Despite hopes that fluoroquinolones could shorten TB treatment, clinical trials 
 The FDA has progressively added warnings to fluoroquinolones. These serious adverse effects have led to recommendations to reserve quinolones for situations where benefits outweigh risks. [@fda2018fluoroquinolone]
 :::
 
-## GI Adverse Effects
+## GI adverse effects
 
 <br>
 
@@ -883,7 +878,7 @@ Associated with *C. difficile* outbreaks (NAP1/BI/027 strain)
 GI effects are usually mild and self-limited. The C. difficile association is more concerning and has contributed to reduced quinolone use in hospitals. [@lode2003adverse]
 :::
 
-## CNS Adverse Effects 
+## CNS adverse effects
 
 <br>
 
@@ -895,9 +890,7 @@ GI effects are usually mild and self-limited. The C. difficile association is mo
 | Restlessness | 1-2%      |
 | **Seizures** | Rare      |
 
-
-<br>
-Risk factors: High dose, renal impairment, concurrent NSAIDs
+<br> Risk factors: High dose, renal impairment, concurrent NSAIDs
 
 ::: aside
 CNS effects are generally mild but can be troublesome, especially in elderly patients. <br> The seizure risk is real but rare, and is enhanced by renal impairment and drug interactions. [@lode2003adverse]
@@ -951,7 +944,6 @@ Unlike most drug-induced neuropathies, quinolone-associated neuropathy may not r
 
 Relative risk by agent:
 
-
 1.  **Moxifloxacin** — highest risk
 2.  Levofloxacin — moderate risk
 3.  Ciprofloxacin — lower risk
@@ -981,7 +973,7 @@ Monitor glucose in diabetic patients
 :::
 
 ::: aside
-Gatifloxacin was withdrawn from systemic use due to severe dysglycemia cases. Other quinolones can also affect glucose but less dramatically. [@fda2018fluoroquinolone]
+Gatifloxacin was withdrawn from systemic use due to severe dysglycemia cases. Other quinolones can also affect glucose but less dramatically [@fda2018fluoroquinolone].
 :::
 
 ## Special Populations
@@ -1007,17 +999,15 @@ The pediatric restriction is based on animal studies showing cartilage damage in
 
 # Clinical Pearls & Summary
 
-## When Quinolones Are Preferred
+## When quinolones are preferred
 
 <br>
-
 
 1.  Chronic bacterial prostatitis
 2.  Complicated UTI/pyelonephritis (resistant organisms)
 3.  Certain bone/joint infections (oral step-down)
 4.  CAP with comorbidities or recent antibiotics
 5.  MDR tuberculosis (moxifloxacin)
-
 
 ::: notes
 These are situations where quinolone advantages clearly outweigh the risks. The excellent oral bioavailability and tissue penetration make them valuable in these specific scenarios.
@@ -1039,7 +1029,7 @@ These are situations where quinolone advantages clearly outweigh the risks. The 
 Stewardship principles emphasize reserving quinolones for situations where they're truly needed. Using them unnecessarily contributes to resistance and exposes patients to adverse effects without clear benefit.
 :::
 
-## Key Drug Interactions to Remember
+## Key drug interactions to remember
 
 <br>
 
@@ -1077,7 +1067,6 @@ This table summarizes agent selection based on clinical scenario. Matching the r
 
 <br>
 
-
 1.  Dual topoisomerase targets, but resistance develops stepwise
 2.  Ciprofloxacin = best gram-negative; newer agents = better gram-positive
 3.  Excellent oral bioavailability enables IV-to-oral switch
@@ -1085,12 +1074,9 @@ This table summarizes agent selection based on clinical scenario. Matching the r
 5.  Serious adverse effects limit use for mild infections
 6.  Reserve for appropriate indications (stewardship)
 
-
 ::: aside
 These six points capture the essence of quinolone pharmacology and clinical use. Understanding these principles will help you make good prescribing decisions.
 :::
-
-
 
 # Appendix: Tables {background-color="#b20e10"}
 
@@ -1106,13 +1092,13 @@ These six points capture the essence of quinolone pharmacology and clinical use.
 | *H. influenzae*  | ≤0.03  | 0.03  | 0.03   |
 | *M. catarrhalis* | ≤0.015 | ≤0.03 | ≤0.015 |
 
-<center> MIC~90~ values (μg/mL); resistance not shown </center> 
+<center>MIC~90~ values (μg/mL); resistance not shown</center>
 
 ::: aside
 This slide is for reference. Note how ciprofloxacin remains the most potent agent against P. aeruginosa among available quinolones. [@eliopoulos2003activity]
 :::
 
-## MIC Table: Atypical pathogens 
+## MIC Table: Atypical pathogens
 
 <br>
 
@@ -1123,13 +1109,13 @@ This slide is for reference. Note how ciprofloxacin remains the most potent agen
 | *C. pneumoniae*   | 2          | 0.5-1      | 0.06-1   |
 | *C. trachomatis*  | 0.5-2      | 0.25-0.5   | 0.06     |
 
-<center> MIC values (μg/mL) </center> 
+<center>MIC values (μg/mL)</center>
 
 ::: aside
 All respiratory fluoroquinolones have good activity against atypical pathogens. Moxifloxacin tends to be most potent against the chlamydial species. [@eliopoulos2003activity]
 :::
 
-## Dosing reference card 
+## Dosing reference card
 
 <br>
 
@@ -1144,6 +1130,5 @@ All respiratory fluoroquinolones have good activity against atypical pathogens. 
 ::: notes
 Keep this as a quick reference. Remember that moxifloxacin requires no renal adjustment, making it convenient for patients with renal impairment. [@dudley2003pharmacokinetics]
 :::
-
 
 ## References
