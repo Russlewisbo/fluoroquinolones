@@ -229,12 +229,12 @@ The QRDR is near the active site of the enzyme. Mutations here reduce quinolone 
 <br>
 
 1.  First mutation in primary target enzyme
+
 2.  Low-level resistance (8-fold MIC increase)
+
 3.  Second mutation in secondary target
+
 4.  High-level clinical resistance
-5.  Low-level resistance (8-fold MIC increase)
-6.  Second mutation in secondary target
-7.  High-level clinical resistance
 
 ::: callout-warning
 Serial passage selects progressively resistant mutants!
