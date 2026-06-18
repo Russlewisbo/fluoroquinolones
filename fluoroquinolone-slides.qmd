@@ -551,7 +551,9 @@ While quinolones are not first-line for meningitis, they may have a role in spec
 **Primarily Renal:**
 
 - Ofloxacin
+- Ciprofloxacin
 - Levofloxacin
+
 
 Requires dose adjustment in renal impairment
 :::
