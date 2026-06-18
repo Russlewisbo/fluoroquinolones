@@ -382,6 +382,10 @@ For serious pseudomonal infections, combination therapy is often recommended to 
 
 ## Gram-positive activity comparison
 
+
+
+
+<center>MIC~90~ values (μg/mL)</center>
 <br>
 
 | Organism        | Cipro | Levo | Moxi | Gemi | Dela  |
@@ -390,7 +394,6 @@ For serious pseudomonal infections, combination therapy is often recommended to 
 | MRSA            | ≥32   | 16   | 4    | 8    | 0.5   |
 | *S. pneumoniae* | 2     | 1    | 0.25 | 0.06 | 0.015 |
 
-<center>MIC~90~ values (μg/mL)</center>
 
 ::: notes
 Note how delafloxacin maintains good activity even against MRSA. This explains its niche for skin infections where staphylococci are common. Moxifloxacin and gemifloxacin are preferred for pneumococcal infections. [@eliopoulos2003activity]
@@ -419,7 +422,7 @@ This enhanced respiratory pathogen coverage makes these agents attractive for CA
 
 <br>
 
-| Agent            | B. fragilis MIC~90~ |
+| Agent            | B. fragilis <br> MIC~90~ |
 |------------------|---------------------|
 | Ciprofloxacin    | 4-64                |
 | Levofloxacin     | 2-\>16              |
@@ -853,6 +856,8 @@ Despite hopes that fluoroquinolones could shorten TB treatment, clinical trials 
 5.  *C. difficile*-associated diarrhea
 :::
 
+<br> <br>
+
 ::: aside
 The FDA has progressively added warnings to fluoroquinolones. These serious adverse effects have led to recommendations to reserve quinolones for situations where benefits outweigh risks. [@fda2018fluoroquinolone]
 :::
@@ -888,7 +893,9 @@ GI effects are usually mild and self-limited. The C. difficile association is mo
 | Restlessness | 1-2%      |
 | **Seizures** | Rare      |
 
-<br> Risk factors: High dose, renal impairment, concurrent NSAIDs
+<br> <br>
+
+<br> **Risk factors:** High dose, renal impairment, concurrent NSAIDs
 
 ::: aside
 CNS effects are generally mild but can be troublesome, especially in elderly patients. <br> The seizure risk is real but rare, and is enhanced by renal impairment and drug interactions. [@lode2003adverse]
@@ -952,8 +959,10 @@ Relative risk by agent:
 Avoid in: Long QT syndrome, uncorrected hypokalemia, concurrent QT-prolonging drugs
 :::
 
+<br> <br>
+
 ::: aside
-This is a class effect but varies significantly by agent. If a quinolone is needed in a patient at risk, ciprofloxacin is preferred from a cardiac safety standpoint. [@yap2003qt]
+This is a class effect but varies significantly by agent. If a quinolone is needed in a patient at risk, ciprofloxacin is preferred from a cardiac safety standpoint [@yap2003qt].
 :::
 
 ## Dysglycemia
@@ -974,7 +983,7 @@ Monitor glucose in diabetic patients
 Gatifloxacin was withdrawn from systemic use due to severe dysglycemia cases. Other quinolones can also affect glucose but less dramatically [@fda2018fluoroquinolone].
 :::
 
-## Special Populations
+## Special populations
 
 <br>
 
@@ -992,7 +1001,7 @@ Gatifloxacin was withdrawn from systemic use due to severe dysglycemia cases. Ot
 - May exacerbate weakness — use with extreme caution
 
 ::: aside
-The pediatric restriction is based on animal studies showing cartilage damage in juvenile animals. However, human data hasn't consistently shown this, and quinolones are used in children when necessary. [@lode2003adverse]
+The pediatric restriction is based on animal studies showing cartilage damage in juvenile animals. However, human data hasn't consistently shown this, and quinolones are used in children when necessary [@lode2003adverse].
 :::
 
 # Clinical Pearls & Summary
@@ -1007,7 +1016,9 @@ The pediatric restriction is based on animal studies showing cartilage damage in
 4.  CAP with comorbidities or recent antibiotics
 5.  MDR tuberculosis (moxifloxacin)
 
-::: notes
+<br> <br>
+
+::: aside
 These are situations where quinolone advantages clearly outweigh the risks. The excellent oral bioavailability and tissue penetration make them valuable in these specific scenarios.
 :::
 
@@ -1015,15 +1026,16 @@ These are situations where quinolone advantages clearly outweigh the risks. The 
 
 <br>
 
-::: incremental
+
 1.  Uncomplicated UTI (use TMP-SMX, nitrofurantoin first)
 2.  Mild community-acquired infections
 3.  Empirical gonorrhea treatment
 4.  Patients with tendon disorders or prior FQ tendinopathy
 5.  Patients taking corticosteroids (if alternatives exist)
-:::
 
-::: notes
+<br> <br>
+
+::: aside
 Stewardship principles emphasize reserving quinolones for situations where they're truly needed. Using them unnecessarily contributes to resistance and exposes patients to adverse effects without clear benefit.
 :::
 
@@ -1040,7 +1052,7 @@ Stewardship principles emphasize reserving quinolones for situations where they'
 | Warfarin                   | Monitor INR                           |
 
 ::: aside
-These five interactions should be committed to memory. The cation interaction is universal; the others vary by quinolone agent. [@radandt1992interactions]
+These five interactions should be committed to memory. The cation interaction is universal; the others vary by quinolone agent [@radandt1992interactions].
 :::
 
 ## Agent selection summary
@@ -1078,7 +1090,7 @@ These six points capture the essence of quinolone pharmacology and clinical use.
 
 # Appendix: Tables {background-color="#b20e10"}
 
-## MIC Table: Gram-Negative Pathogens {.smaller}
+## MIC Table: Gram-Negative Pathogens 
 
 <br>
 
@@ -1093,7 +1105,7 @@ These six points capture the essence of quinolone pharmacology and clinical use.
 <center>MIC~90~ values (μg/mL); resistance not shown</center>
 
 ::: aside
-This slide is for reference. Note how ciprofloxacin remains the most potent agent against P. aeruginosa among available quinolones. [@eliopoulos2003activity]
+ Note how ciprofloxacin remains the most potent agent against P. aeruginosa among available quinolones [@eliopoulos2003activity].
 :::
 
 ## MIC Table: Atypical pathogens
@@ -1110,7 +1122,7 @@ This slide is for reference. Note how ciprofloxacin remains the most potent agen
 <center>MIC values (μg/mL)</center>
 
 ::: aside
-All respiratory fluoroquinolones have good activity against atypical pathogens. Moxifloxacin tends to be most potent against the chlamydial species. [@eliopoulos2003activity]
+All respiratory fluoroquinolones have good activity against atypical pathogens. Moxifloxacin tends to be most potent against the chlamydial species [@eliopoulos2003activity].
 :::
 
 ## Dosing reference card
@@ -1126,7 +1138,7 @@ All respiratory fluoroquinolones have good activity against atypical pathogens. 
 | Delafloxacin  | 450 mg PO q12h     | ↓ if CrCl \<30   |
 
 ::: notes
-Keep this as a quick reference. Remember that moxifloxacin requires no renal adjustment, making it convenient for patients with renal impairment. [@dudley2003pharmacokinetics]
+Keep this as a quick reference. Remember that moxifloxacin requires no renal adjustment, making it convenient for patients with renal impairment [@dudley2003pharmacokinetics].
 :::
 
 ## References
